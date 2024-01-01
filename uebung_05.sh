@@ -7,7 +7,7 @@ resourceGroup=CLARCD_1Theuerman
 # set name for AppServicePlan
 appServicePlan=$resourceGroup-myAppServicePlan
 # set name for WebApp
-webApp=myWebApp
+webApp=UE5-WeatherWeb01
 # set name for DeploymentUser
 deploymentUser=$resourceGroup-myUser
 # set DeploymentPassword
