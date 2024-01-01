@@ -5,11 +5,11 @@ subscription=c42c6aa8-3c10-40e5-a3ff-ba5843e3dda5
 # set name for ResourceGroup
 resourceGroup=CLARCD_1Theuerman
 # set name for AppServicePlan
-appServicePlan=myAppServicePlan
+appServicePlan=$resourceGroup-myAppServicePlan
 # set name for WebApp
 webApp=$resourceGroup-myWebApp
 # set name for DeploymentUser
-deploymentUser=myUser
+deploymentUser=$resourceGroup-myUser
 # set DeploymentPassword
 deploymentPassword=Pa55w.rd
 # set DeploymentLocalGitUrl
