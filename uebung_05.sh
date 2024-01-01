@@ -36,8 +36,12 @@ az webapp deployment user set --user-name $deploymentUser --password $deployment
 az appservice plan create --name $appServicePlan --resource-group $resourceGroup --sku FREE
 az webapp create --resource-group $resourceGroup --plan $appServicePlan --name $webApp --deployment-local-git
 az webapp config appsettings set --name $webApp --resource-group $resourceGroup --settings DEPLOYMENT_BRANCH='main'
-git remote add azure $deploymentLocalGitUrl
 git branch -m main
 git add .
 git commit -m "azure commit"
+
+if ! git config remote.azure.url > /dev/null; then
+  git remote add azure $deploymentLocalGitUrl
+fi
+
 git push azure main
