@@ -7,7 +7,7 @@ resourceGroup=CLARCD_1Theuerman
 # set name for AppServicePlan
 appServicePlan=$resourceGroup-myAppServicePlan
 # set name for WebApp
-webApp=$resourceGroup-myWebApp
+webApp=myWebApp
 # set name for DeploymentUser
 deploymentUser=$resourceGroup-myUser
 # set DeploymentPassword
@@ -31,6 +31,7 @@ az login
 az account set --subscription $subscription
 
 az webapp deployment user set --user-name $deploymentUser --password $deploymentPassword
+# Uncomment the next line if the resource group needs to be created
 # az group create --name $resourceGroup --location "West Europe"
 az appservice plan create --name $appServicePlan --resource-group $resourceGroup --sku FREE
 az webapp create --resource-group $resourceGroup --plan $appServicePlan --name $webApp --deployment-local-git
