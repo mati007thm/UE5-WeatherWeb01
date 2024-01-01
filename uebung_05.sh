@@ -40,6 +40,10 @@ git branch -m main
 git add .
 git commit -m "azure commit"
 
+if git config remote.azure.url > /dev/null; then
+  git remote remove azure
+fi
+
 if ! git config remote.azure.url > /dev/null; then
   git remote add azure $deploymentLocalGitUrl
 fi
