@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/UE5-WeatherWeb01.props" />
+</Project>

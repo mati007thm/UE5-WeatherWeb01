@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/UE5-WeatherWeb01.props" />
+</Project>

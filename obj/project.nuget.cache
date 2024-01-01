@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "saIEC7r5k6pHziE71/IhlJWvchdauheGc/AyxElmOwDuIbQZZRqsusbLkOw29eTNNRHsxkY4a97+bgIRd41C+w==",
+  "success": true,
+  "projectFilePath": "/Users/mattitheuermann/Desktop/CLARC/UE5-WeatherWeb01/UE5-WeatherWeb01.csproj",
+  "expectedPackageFiles": [
+    "/Users/mattitheuermann/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.17.0/microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "/Users/mattitheuermann/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/mattitheuermann/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/mattitheuermann/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.14/microsoft.netcore.app.host.osx-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
