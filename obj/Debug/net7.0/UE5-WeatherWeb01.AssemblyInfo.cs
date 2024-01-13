@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UE5-WeatherWeb01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+238df9332432464aac6fb3c9b3b15d6891041518")]
 [assembly: System.Reflection.AssemblyProductAttribute("UE5-WeatherWeb01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UE5-WeatherWeb01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
